@@ -64,7 +64,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo_sl_mongo_extensions.svg',
+  headerIcon: 'img/logo_sl_mongo_extensions.png',
   footerIcon: 'img/logo_sl_oss.svg',
   favicon: 'img/favicon.png',
 
@@ -105,8 +105,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/logo_sl_mongo_extensions.svg',
-  twitterImage: 'img/logo_sl_mongo_extensions.svg',
+  ogImage: 'img/logo_sl_mongo_extensions.png',
+  twitterImage: 'img/logo_sl_mongo_extensions.png',
 
   // Show documentation's last contributor's name.
   enableUpdateBy: true,
