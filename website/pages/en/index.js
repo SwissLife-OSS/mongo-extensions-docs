@@ -62,7 +62,7 @@ class HomeSplash extends React.Component {
       <SplashSnapshooterContainer>
         <div className="inner">
           <SnapshooterLogo
-            img_src={`${baseUrl}img/logo_sl_snapshooter_glow.png`}
+            img_src={`${baseUrl}img/logo_sl_mongo_extensions.png`}
           />
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>

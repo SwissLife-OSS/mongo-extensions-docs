@@ -4,7 +4,8 @@
       "introduction"
     ],
     "Context": [
-      "context"
+      "context-quickstart",
+      "context-db"
     ],
     "Transactions": [
       "transactions"

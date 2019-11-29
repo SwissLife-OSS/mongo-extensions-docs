@@ -4,4 +4,4 @@ title: Transactions
 sidebar_label: Transactions
 ---
 
-TODO write about Transactions
+This part is still in internal POC phase

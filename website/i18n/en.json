@@ -5,7 +5,11 @@
     "previous": "Previous",
     "tagline": "Common Extensions for MongoDB driver in .Net",
     "docs": {
-      "context": {
+      "context-db": {
+        "title": "Creating a Database",
+        "sidebar_label": "Creating a Database"
+      },
+      "context-quickstart": {
         "title": "Context",
         "sidebar_label": "Context"
       },
