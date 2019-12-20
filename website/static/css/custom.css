@@ -82,8 +82,9 @@ input#search_input_react {
 
 .homeContainer {
     background-color: #353535;
-    background: url("../img/bg_motherboard.jpg") center center repeat-x;
+    background: url("../img/bg_honeycomb.jpg") center center repeat-x;
     color: #ffffff;
+    background-size: cover;
 }
 
 .homeContainer .projectTitle {
@@ -91,11 +92,6 @@ input#search_input_react {
     text-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
 }
 
-.homeContainer.homeSnapshooterContainer {
-    background-color: #434546;
-    background: url("../img/bg_motherboard.jpg") center center no-repeat;
-    background-size: cover;
-}
 
 h1,
 h2,

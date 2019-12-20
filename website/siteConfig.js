@@ -19,7 +19,7 @@ const examplesUrl = 'https://github.com/SwissLife-OSS/mongo-extensions/tree/mast
 const blogUrl = organizationUrl + "/blog";
 
 const siteConfig = {
-  title: 'Mongo-Extensions', // Title for your website.
+  title: 'Mongo Extensions', // Title for your website.
   tagline: 'Common Extensions for MongoDB driver in .Net',
   url: 'https://swisslife-oss.github.io', // Your website URL
   baseUrl: '/mongo-extensions/', // Base URL for your project */

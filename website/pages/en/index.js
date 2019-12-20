@@ -52,7 +52,7 @@ class HomeSplash extends React.Component {
 
     const Button = props => (
       <div className="pluginWrapper buttonWrapper">
-        <a className="button" href={props.href} target={props.target}>
+        <a className={props.className} href={props.href} target={props.target}>
           {props.children}
         </a>
       </div>
@@ -66,8 +66,8 @@ class HomeSplash extends React.Component {
           />
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl("get-started")}>Get Started</Button>
-            <Button href={docUrl("introduction")}>Learn More</Button>
+            <Button className="button button-primary" href={docUrl("get-started")}>Get Started</Button>
+            <Button className="button button-secondary" href={docUrl("introduction")}>Learn More</Button>
           </PromoSection>
         </div>
       </SplashSnapshooterContainer>
@@ -100,18 +100,12 @@ class Index extends React.Component {
         className="productShowcaseSection paddingBottom"
         style={{ textAlign: "center" }}
       >
-        <h1>A snapshot test utility to simplify your tests</h1>
+        <h1>Mongo Extensions</h1>
         <MarkdownBlock>
-          Snapshooter is a flexible .Net testing tool to simplify the validation
-          of your test results in your unit / integration tests. It creates
-          simply a snapshot of your test result and stores it alongside of your
-          test. When the test is executed again, the snapshooter will compare
-          the actual test result with the stored snapshot. If both are the same,
-          the test will pass.
+        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
         </MarkdownBlock>
         <MarkdownBlock>
-          Snapshooter is based on the idea of **[Jest Snapshot
-          Testing](https://jestjs.io/docs/en/snapshot-testing/)**
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
         </MarkdownBlock>
       </div>
     );
