@@ -2,12 +2,11 @@
 .homeContainer .section.logo {
   height: 160px;
   position: relative;
-  top: -70px;
+  top: -40px;
 }
 .homeContainer .projectTitle {
-  color: #fff;
   position: relative;
-  top: 30px;
+  top: -20px;
 }
 
 .pluginWrapper.buttonWrapper>.button,

@@ -18,6 +18,7 @@
         url("../fonts/737655.ttf") format("truetype"),
         url("../fonts/737655.svg#87fa4160_5806_4ff6_b3de_a97bda1ade77") format("svg");
 }
+/*@import url('https://fonts.googleapis.com/css?family=Teko:700&display=swap');*/
 
 body {
     font-family: "Calibri W02 Light", Arial, Helvetica, sans-serif;
@@ -32,8 +33,13 @@ body {
     border-bottom: 1px solid #f4f4f4;
 }
 
+.fixedHeaderContainer header img {
+    margin-right: 0;
+}
 .fixedHeaderContainer header .headerTitleWithLogo {
     white-space: nowrap;
+    /*font-family: 'Teko', sans-serif;
+    font-size: 18px;*/
 }
 
 .fixedHeaderContainer a,
@@ -91,8 +97,19 @@ input#search_input_react {
     color: #ffffff;
     text-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
 }
-
-
+/*
+.homeContainer .projectTitle h2,
+.homeContainer .projectTitle small {
+    font-family: 'Teko', sans-serif;
+}
+*/
+.homeContainer .projectTitle h2 {
+    font-size: 64px;
+    color: #6fbf64;
+}
+.homeContainer .projectTitle small {
+    font-size: 22px;
+}
 h1,
 h2,
 h3,
