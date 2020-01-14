@@ -40,9 +40,3 @@
 .blockImage img {
   height: 100%;
 }
-
-@media only screen and (max-width: 735px) {
-  .homeContainer .section.logo {
-    top: -30px;
-  }
-}
